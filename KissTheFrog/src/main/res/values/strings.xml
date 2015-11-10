@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kiss The Frog</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string><string name="start">Start</string><string name="gameover">Game Over</string><string name="play_again">Play Again</string>
+    <string name="kissed">KISSED!</string>
+    <string name="tutorial">Can you find and kiss the frog before he jumps to another lover?</string>
+
+</resources>
