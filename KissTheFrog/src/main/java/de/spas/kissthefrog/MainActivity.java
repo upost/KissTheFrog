@@ -86,8 +86,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         float scale = getResources().getDisplayMetrics().density;
         FrameLayout.LayoutParams lp = new FrameLayout.LayoutParams(Math.round(64*scale),Math.round(61*scale));
         lp.gravity = Gravity.TOP + Gravity.LEFT;
-        lp.leftMargin = rnd.nextInt(container.getWidth()-64);
-        lp.topMargin = rnd.nextInt(container.getHeight()-61);
+        lp.leftMargin = rnd.nextInt(container.getWidth()-lp.width);
+        lp.topMargin = rnd.nextInt(container.getHeight()-lp.height);
         frog.setOnClickListener(this);
         container.addView(frog, lp);
         update();
